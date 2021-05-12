@@ -1,5 +1,17 @@
+/**
+ *  Classe qui représente l'adresse
+ *  @date 12 mai 2021
+ *  @version v1.0
+ *  @author Véronique Cheval
+ */
+
+
+
 package fr.eni.ecole.quelMedecin.bo;
 
+/**
+ * Attributs d'instance de la classe Adresse
+ */
 public class Adresse {
     private String mentionsCompl;
     private int numero;
@@ -7,6 +19,16 @@ public class Adresse {
     private String rue;
     private int cp;
     private String ville;
+
+    /**
+     *
+     * @param mentionsCompl de type String
+     * @param numero de type int
+     * @param complNumero de type String
+     * @param rue de type String
+     * @param cp de type int
+     * @param ville de type String
+     */
 
     public Adresse(String mentionsCompl, int numero, String complNumero, String rue, int cp, String ville) {
         this.mentionsCompl = mentionsCompl;
@@ -25,6 +47,11 @@ public class Adresse {
         this.ville = ville;
     }
 
+    /**
+     * ici une méthode afficher ()
+     *    Affiche sous la forme :
+     *      adresse
+     */
     public void afficher (){
         if (this.mentionsCompl != null){
             System.out.println(this.mentionsCompl);

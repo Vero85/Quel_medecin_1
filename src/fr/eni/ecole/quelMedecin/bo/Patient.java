@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
+/**
+ * Classe patient
+ */
 public class Patient {
     private String nom; // attribut d'instance
     private String prenom; // attribut d'instance
@@ -26,7 +29,14 @@ public class Patient {
 
 
     }
-
+    /**
+     * Affiche sous la forme :
+     * NOM Prénom
+     * Téléphone : XXXXX
+     * Sexe : Féminin ou Masculin
+     * N° SS
+     * Date de naissance
+     */
 
     //methode d'instance afficher ()
 

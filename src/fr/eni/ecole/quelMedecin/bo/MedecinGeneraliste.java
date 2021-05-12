@@ -19,6 +19,11 @@ public class MedecinGeneraliste {
         this.telephone = telephone;
     }
 
+    /**
+     * méthode getters
+     * @return nom
+     */
+
     //methodes getters (accès en lecture = sert à lire) si je suis à l'exterieur et je vais passer par les getters
     public String getNom() {
         return nom;
@@ -34,6 +39,7 @@ public class MedecinGeneraliste {
 
 
     //methodes setters (accès en écriture = sers à modifier la valeur)
+
 
     public void setNom(String nom) {
         this.nom = nom;
